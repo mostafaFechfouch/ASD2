@@ -3,7 +3,7 @@
 int somme_des_carrees(int n)
 {
     int chiffre;
-    if (n == 0) {  // base case
+    if (n == 0) {
         return 0;
     }
     chiffre = n % 10;
